@@ -59,8 +59,6 @@ export class UnconnectedDropdownCustom extends Component {
           value={value}
           onChange={this.setValue}
           clearable={this.props.clearable}
-          optionRenderer={this.props.optionRenderer}
-          valueRenderer={this.props.valueRenderer}
           placeholder={this.props.placeholder}
         />
 
